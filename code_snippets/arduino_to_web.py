@@ -1,7 +1,7 @@
 import serial
 
 if __name__ == '__main__':
-    ser = serial.Serial('/dev/ttyACM1', 9600, timeout = 1)
+    ser = serial.Serial('/dev/ttyACM1', 57600, timeout = 1)
     ser.flush()
     
     while True:
